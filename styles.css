@@ -1,0 +1,56 @@
+body {
+  font-weight: 300;
+  margin: 0;
+  background: #f5f6fa;
+  min-height: 1000px;
+}
+
+.header {
+  text-align: center;
+}
+
+.insta-link {
+  color: black;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 35px;
+}
+
+.card-container {
+  background: #f5f6fa;
+	column-width: 300px;
+	column-gap: 15px;
+	width: 100%;
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+div.card-container .card {
+	-webkit-column-break-inside: avoid;
+	margin: 15px auto;
+	transition: opacity .2s ease-in-out;
+}
+
+div.card-container .card:nth-child(1) {
+  margin-top: 0px;
+}
+
+div.card-container .card img {
+	width: 100%;
+}
+
+div.card-container:hover .card:not(:hover) {
+	opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-style {
+  color:#568FCB;
+}
+
+.link-style:hover {
+	color: #2C63ae;
+}
