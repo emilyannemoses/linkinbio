@@ -1,2 +1,5 @@
 # linkinbio
-Make your own linkinbio for Instagram!
+
+Make your own `linkinbio` page for Instagram!
+
+- Will be accessed at www.emilyannemoses.com/linkinbio
