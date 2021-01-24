@@ -63,11 +63,11 @@ a {
 
 .overlay {
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
 }
 
