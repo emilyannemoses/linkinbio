@@ -3,6 +3,7 @@ body {
   margin: 0;
   background: #f5f6fa;
   min-height: 1000px;
+  font-family: cursive;
 }
 
 .header {
@@ -13,7 +14,7 @@ body {
   color: black;
   font-weight: 600;
   font-family: cursive;
-  font-size: 35px;
+  font-size: 26px;
 }
 
 .card-container {
@@ -28,7 +29,6 @@ body {
 div.card-container .card {
 	-webkit-column-break-inside: avoid;
 	margin: 15px auto;
-	transition: opacity .2s ease-in-out;
 }
 
 div.card-container .card:nth-child(1) {
@@ -53,4 +53,52 @@ a {
 
 .link-style:hover {
 	color: #2C63ae;
+}
+
+.card {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
 }
