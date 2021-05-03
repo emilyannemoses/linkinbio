@@ -1,104 +1,29 @@
 body {
   font-weight: 300;
-  margin: 0;
-  background: #f5f6fa;
-  min-height: 1000px;
-  font-family: cursive;
-}
-
-.header {
-  text-align: center;
-}
-
-.insta-link {
-  color: black;
-  font-weight: 600;
-  font-family: cursive;
   font-size: 26px;
-}
-
-.card-container {
-  background: #f5f6fa;
-	column-width: 300px;
-	column-gap: 15px;
-	width: 100%;
-	max-width: 1200px;
-	margin: 20px auto;
-}
-
-div.card-container .card {
-	-webkit-column-break-inside: avoid;
-	margin: 15px auto;
-}
-
-div.card-container .card:nth-child(1) {
-  margin-top: 0px;
-}
-
-div.card-container .card img {
-	width: 100%;
-}
-
-div.card-container:hover .card:not(:hover) {
-	opacity: 0.8;
+  font-family: Avenir, Sans-Serif;
+  margin: 0;
+  width: 100vw;
+  background-color: rgb(33, 33, 33);
+  text-align: center;
 }
 
 a {
   text-decoration: none;
+  display: block;
+  margin: 50px;
+  padding: 25px;
+  background-color: #568FCB;
+}
+
+.vertical-align {
+  vertical-align: middle;
 }
 
 .link-style {
-  color:#568FCB;
+  color: rgb(33, 33, 33);
 }
 
 .link-style:hover {
 	color: #2C63ae;
-}
-
-.card {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.overlay {
-  position: absolute;
-  top: 12%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
-
-.fade-in {
-  animation: fadeIn ease 15s;
-  -webkit-animation: fadeIn ease 15s;
-  -moz-animation: fadeIn ease 15s;
-  -o-animation: fadeIn ease 15s;
-  -ms-animation: fadeIn ease 15s;
-}
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
 }
