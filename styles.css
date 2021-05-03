@@ -5,13 +5,14 @@ body {
   margin: 0;
   width: 100vw;
   background-color: rgb(33, 33, 33);
+  /* background-color: #f5f6fa; */
   text-align: center;
 }
 
 a {
   text-decoration: none;
   display: block;
-  margin: 50px;
+  margin: 60px;
   padding: 25px;
   background-color: #568FCB;
 }
