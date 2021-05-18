@@ -7,8 +7,12 @@ body {
   text-align: center;
 }
 
-.header {
-  height: 75px;
+.title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: #73AD21;
 }
 
 div.card-container {
@@ -22,7 +26,7 @@ a.link {
   text-decoration: none;
   display: block;
   padding: 10px;
-  background-color: #568FCB;
+  border: 2px solid #73AD21;
   max-width: 50%;
 }
 
@@ -31,7 +35,7 @@ a.link {
 }
 
 .link-style {
-  color: rgb(33, 33, 33);
+  color: #568FCB;
 }
 
 .link-style:hover {
@@ -48,4 +52,8 @@ a.link {
 
 .footer:hover {
   color: #2C63ae;
+}
+
+.image {
+  border: 2px solid #73AD21;
 }
